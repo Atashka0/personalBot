@@ -1,13 +1,7 @@
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('YOUR API KEYecho "# personalBot" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Atashka0/personalBot.git
-git push -u origin main')
+bot = telebot.TeleBot('YOUR API KEY')
 
 @bot.message_handler(commands = ['start'])
 def commands(message):
