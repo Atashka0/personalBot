@@ -29,7 +29,7 @@ def get_user_text(message):
     elif message.text == "id":
         bot.send_message(message.chat.id, f"Your ID: {message.from_user.id}", parse_mode = "html")
     elif message.text == "photo":
-        photo = open('sassy_couple.png', 'rb')
+        photo = open('couple.png', 'rb')
         bot.send_photo(message.chat.id, photo)
     else:
         bot.send_message(message.chat.id, "I can't get u, sry", parse_mode = 'html')
